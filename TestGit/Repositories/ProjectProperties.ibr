@@ -14,7 +14,7 @@
       <Name>TestGit</Name>
       <Owner>Magic Software Enterprises Ltd</Owner>
       <Description />
-      <Last_Edited>6/18/2025 2:59:39 PM</Last_Edited>
+      <Last_Edited>6/18/2025 3:58:45 PM</Last_Edited>
       <ProjVer>c3hOcDBPaXlZcjExRkt4Y2piYTV6dz09</ProjVer>
       <Encoding>West European</Encoding>
       <ResourceFile>resources.xml</ResourceFile>
@@ -58,7 +58,7 @@
       <LocalProjPath />
     </VCInfo>
     <FlowAndBpLastId>
-      <LastFlowId>1</LastFlowId>
+      <LastFlowId>2</LastFlowId>
       <LastBpId>1</LastBpId>
     </FlowAndBpLastId>
     <ServerSettings>
