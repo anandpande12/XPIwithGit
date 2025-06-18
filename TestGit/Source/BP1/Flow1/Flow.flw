@@ -76,6 +76,70 @@
         <ReturnValueError>false</ReturnValueError>
       </WebServiceMigrationInfo>
     </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>2</ID>
+        <Name>Update var</Name>
+        <IFCDefinition>12</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <iBoltService>
+        <FlowData>
+          <row>
+            <ID>1</ID>
+            <Order>0</Order>
+            <Action>1</Action>
+            <TargetType>2</TargetType>
+            <isTargetDynamic>false</isTargetDynamic>
+            <Encoding>0</Encoding>
+            <TargetInfo>
+              <NameExp>
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA1JywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>A</ExpectedType>
+                <Direction>N</Direction>
+              </NameExp>
+              <Type>
+                <Type>A</Type>
+                <Picture>1000</Picture>
+                <isUnicode>false</isUnicode>
+                <isNillable>false</isNillable>
+              </Type>
+              <UDSType_GUID>
+                <ExpectedType />
+                <Direction>N</Direction>
+              </UDSType_GUID>
+            </TargetInfo>
+            <IndexExp>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </IndexExp>
+            <UpdateExp>
+              <ExpressionVal>J0dpdCBTdWNjZXNzJw==</ExpressionVal>
+              <ExpectedType>A</ExpectedType>
+              <Direction>I</Direction>
+            </UpdateExp>
+            <ConditionExp>
+              <ExpectedType>L</ExpectedType>
+              <Direction>I</Direction>
+            </ConditionExp>
+          </row>
+        </FlowData>
+      </iBoltService>
+      <WebServiceMigrationInfo>
+        <NotMigrated>false</NotMigrated>
+        <OutAttachmentsWarning>false</OutAttachmentsWarning>
+        <ReturnValueError>false</ReturnValueError>
+      </WebServiceMigrationInfo>
+    </row_Step>
   </Steps>
   <Triggers />
   <TextElements />
