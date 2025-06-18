@@ -31,6 +31,13 @@
       <DependentUpon>Source\BP1\BP.bp</DependentUpon>
       <SubType>BP-Flow Node</SubType>
     </Content>
+<<<<<<< HEAD
+=======
+    <Content Include="Source\BP1\Flow2\Mapper_1.mpr">
+      <SubType>BP-Flow Dependent</SubType>
+      <DependentUpon>source\bp1\flow2\Flow.flw</DependentUpon>
+    </Content>
+>>>>>>> 79ec0b5ce04c5f16e010075590b40f9ae33a1f66
     <Content Include="Source\BP1\Flow2\Variables.flr">
       <DependentUpon>Source\BP1\Flow2\Flow.flw</DependentUpon>
       <SubType>BP-Flow Dependent</SubType>
