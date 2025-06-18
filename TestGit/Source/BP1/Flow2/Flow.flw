@@ -56,62 +56,6 @@
     <row_Step>
       <Properties>
         <isGoTo>false</isGoTo>
-        <ParentStepID>4</ParentStepID>
-        <SortOrder>1</SortOrder>
-        <ID>1</ID>
-        <Name>Get Emp name</Name>
-        <IFCDefinition>11</IFCDefinition>
-        <ProcessMode>1</ProcessMode>
-        <isTwoPhase>false</isTwoPhase>
-        <isWait4Comp>false</isWait4Comp>
-        <isSavePoint>false</isSavePoint>
-        <CallLogicFlow>false</CallLogicFlow>
-        <isReturnXML>false</isReturnXML>
-        <isTrigger>false</isTrigger>
-      </Properties>
-      <MapperInfo>
-        <DBTransLevel>Mapper</DBTransLevel>
-        <DBTransString />
-        <ErrorHandling>Continue</ErrorHandling>
-      </MapperInfo>
-      <iBoltService />
-      <WebServiceMigrationInfo>
-        <NotMigrated>false</NotMigrated>
-        <OutAttachmentsWarning>false</OutAttachmentsWarning>
-        <ReturnValueError>false</ReturnValueError>
-      </WebServiceMigrationInfo>
-    </row_Step>
-    <row_Step>
-      <Properties>
-        <isGoTo>false</isGoTo>
-        <ParentStepID>1</ParentStepID>
-        <SortOrder>1</SortOrder>
-        <ID>3</ID>
-        <Name>Check Git conflict</Name>
-        <IFCDefinition>22</IFCDefinition>
-        <ProcessMode>1</ProcessMode>
-        <isTwoPhase>false</isTwoPhase>
-        <isWait4Comp>false</isWait4Comp>
-        <isSavePoint>false</isSavePoint>
-        <CallLogicFlow>false</CallLogicFlow>
-        <isReturnXML>false</isReturnXML>
-        <StepCondition>
-          <ExpressionVal>J0ZBTFNFJ0xPRw==</ExpressionVal>
-          <ExpectedType>L</ExpectedType>
-          <Direction>I</Direction>
-        </StepCondition>
-        <isTrigger>false</isTrigger>
-      </Properties>
-      <iBoltService />
-      <WebServiceMigrationInfo>
-        <NotMigrated>false</NotMigrated>
-        <OutAttachmentsWarning>false</OutAttachmentsWarning>
-        <ReturnValueError>false</ReturnValueError>
-      </WebServiceMigrationInfo>
-    </row_Step>
-<row_Step>
-      <Properties>
-        <isGoTo>false</isGoTo>
         <ParentStepID>0</ParentStepID>
         <SortOrder>0</SortOrder>
         <ID>4</ID>
@@ -125,16 +69,17 @@
         <isReturnXML>false</isReturnXML>
         <isTrigger>false</isTrigger>
       </Properties>
-      <iBoltService/>
+      <iBoltService />
       <WebServiceMigrationInfo>
         <NotMigrated>false</NotMigrated>
         <OutAttachmentsWarning>false</OutAttachmentsWarning>
         <ReturnValueError>false</ReturnValueError>
       </WebServiceMigrationInfo>
-    </row_Step><row_Step>
+    </row_Step>
+    <row_Step>
       <Properties>
         <isGoTo>false</isGoTo>
-        <ParentStepID>1</ParentStepID>
+        <ParentStepID>4</ParentStepID>
         <SortOrder>2</SortOrder>
         <ID>5</ID>
         <Name>Success log</Name>
@@ -195,7 +140,35 @@
         <ReturnValueError>false</ReturnValueError>
       </WebServiceMigrationInfo>
     </row_Step>
-</Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>3</ID>
+        <Name>Check Git conflict</Name>
+        <IFCDefinition>22</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <StepCondition>
+          <ExpressionVal>J0ZBTFNFJ0xPRw==</ExpressionVal>
+          <ExpectedType>L</ExpectedType>
+          <Direction>I</Direction>
+        </StepCondition>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <iBoltService />
+      <WebServiceMigrationInfo>
+        <NotMigrated>false</NotMigrated>
+        <OutAttachmentsWarning>false</OutAttachmentsWarning>
+        <ReturnValueError>false</ReturnValueError>
+      </WebServiceMigrationInfo>
+    </row_Step>
+  </Steps>
   <Triggers />
   <TextElements />
 </Flow>
