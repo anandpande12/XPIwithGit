@@ -49,15 +49,15 @@
     </Enablement>
   </Properties>
   <DrawProperties>
-    <RootStepID>1</RootStepID>
+    <RootStepID>4</RootStepID>
     <HasTrigger>false</HasTrigger>
   </DrawProperties>
   <Steps>
     <row_Step>
       <Properties>
         <isGoTo>false</isGoTo>
-        <ParentStepID>0</ParentStepID>
-        <SortOrder>0</SortOrder>
+        <ParentStepID>4</ParentStepID>
+        <SortOrder>1</SortOrder>
         <ID>1</ID>
         <Name>Get Emp name</Name>
         <IFCDefinition>11</IFCDefinition>
@@ -88,6 +88,29 @@
         <SortOrder>1</SortOrder>
         <ID>3</ID>
         <Name>Check Git conflict</Name>
+        <IFCDefinition>22</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <iBoltService />
+      <WebServiceMigrationInfo>
+        <NotMigrated>false</NotMigrated>
+        <OutAttachmentsWarning>false</OutAttachmentsWarning>
+        <ReturnValueError>false</ReturnValueError>
+      </WebServiceMigrationInfo>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>4</ID>
+        <Name>Start flow</Name>
         <IFCDefinition>22</IFCDefinition>
         <ProcessMode>1</ProcessMode>
         <isTwoPhase>false</isTwoPhase>
