@@ -95,9 +95,78 @@
         <isSavePoint>false</isSavePoint>
         <CallLogicFlow>false</CallLogicFlow>
         <isReturnXML>false</isReturnXML>
+        <StepCondition>
+          <ExpressionVal>J0ZBTFNFJ0xPRw==</ExpressionVal>
+          <ExpectedType>L</ExpectedType>
+          <Direction>I</Direction>
+        </StepCondition>
         <isTrigger>false</isTrigger>
       </Properties>
       <iBoltService />
+      <WebServiceMigrationInfo>
+        <NotMigrated>false</NotMigrated>
+        <OutAttachmentsWarning>false</OutAttachmentsWarning>
+        <ReturnValueError>false</ReturnValueError>
+      </WebServiceMigrationInfo>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>2</SortOrder>
+        <ID>4</ID>
+        <Name>Success log</Name>
+        <IFCDefinition>12</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <iBoltService>
+        <FlowData>
+          <row>
+            <ID>1</ID>
+            <Order>0</Order>
+            <Action>1</Action>
+            <TargetType>2</TargetType>
+            <isTargetDynamic>false</isTargetDynamic>
+            <Encoding>0</Encoding>
+            <TargetInfo>
+              <NameExp>
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA2JywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>N</ExpectedType>
+                <Direction>N</Direction>
+              </NameExp>
+              <Type>
+                <Type>N</Type>
+                <Picture>12.0</Picture>
+                <isUnicode>false</isUnicode>
+                <isNillable>false</isNillable>
+              </Type>
+              <UDSType_GUID>
+                <ExpectedType />
+                <Direction>N</Direction>
+              </UDSType_GUID>
+            </TargetInfo>
+            <IndexExp>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </IndexExp>
+            <UpdateExp>
+              <ExpressionVal>MjAw</ExpressionVal>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </UpdateExp>
+            <ConditionExp>
+              <ExpectedType>L</ExpectedType>
+              <Direction>I</Direction>
+            </ConditionExp>
+          </row>
+        </FlowData>
+      </iBoltService>
       <WebServiceMigrationInfo>
         <NotMigrated>false</NotMigrated>
         <OutAttachmentsWarning>false</OutAttachmentsWarning>
