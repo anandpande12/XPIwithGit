@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="b6f8c2ea-c056-40fd-aac3-1a5168ca836e">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process-1</Name>
+    <Flow>
+      <ID>2</ID>
+      <Name>Flow-2</Name>
+      <Step>
+        <ID>4</ID>
+        <Name>Start flow</Name>
+      </Step>
+      <Step>
+        <ID>5</ID>
+        <Name>Success log</Name>
+      </Step>
+      <Step>
+        <ID>3</ID>
+        <Name>Check Git conflict</Name>
+      </Step>
+      <Step>
+        <ID>6</ID>
+        <Name>Save Message</Name>
+      </Step>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

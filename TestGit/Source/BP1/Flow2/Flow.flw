@@ -7,7 +7,7 @@
     <isInactive>false</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
-    <isAutoStart>false</isAutoStart>
+    <isAutoStart>true</isAutoStart>
     <MaxInstances>0</MaxInstances>
     <isAutoRepeat>false</isAutoRepeat>
     <PSSSubGUID>
@@ -162,6 +162,41 @@
         <isTrigger>false</isTrigger>
       </Properties>
       <iBoltService />
+      <WebServiceMigrationInfo>
+        <NotMigrated>false</NotMigrated>
+        <OutAttachmentsWarning>false</OutAttachmentsWarning>
+        <ReturnValueError>false</ReturnValueError>
+      </WebServiceMigrationInfo>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>5</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>6</ID>
+        <Name>Save Message</Name>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>JzIwMCc=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+        </SaveMSG>
+      </iBoltService>
       <WebServiceMigrationInfo>
         <NotMigrated>false</NotMigrated>
         <OutAttachmentsWarning>false</OutAttachmentsWarning>
